@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mintlify shared prettier config",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
