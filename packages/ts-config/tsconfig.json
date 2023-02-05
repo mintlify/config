@@ -1,8 +1,9 @@
 {
   "extends": "@tsconfig/next/tsconfig.json", // https://github.com/tsconfig/bases/blob/main/bases/next.json
   "compilerOptions": {
-    "target": "ES6",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "declaration": true,
+    "outDir": "dist"
   }
 }
