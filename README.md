@@ -4,3 +4,6 @@ These configuration files are used by Mintlify for *development dependencies onl
 
 ### Editor Config
 Copy [.editorconfig](/packages/editor-config/.editorconfig) into the project root.
+
+### Prettier Config
+See [prettier-config](packages/prettier-config/README.md) documentation.
