@@ -5,5 +5,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {}
+  "scripts": {
+    "publish:prettier-config": "npm publish --workspace @mintlify/prettier-config"
+  }
 }

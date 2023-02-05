@@ -1,0 +1,24 @@
+{
+  "name": "@mintlify/prettier-config",
+  "version": "1.0.1",
+  "description": "Mintlify shared prettier config",
+  "author": "Mintlify, Inc.",
+  "homepage": "https://mintlify.com/",
+  "license": "MIT",
+  "main": "./config.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintlify/config"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "peerDependencies": {
+    "prettier": "2.x",
+    "@trivago/prettier-plugin-sort-imports": "3.x"
+  }
+}
