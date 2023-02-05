@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish:prettier-config": "npm publish --workspace @mintlify/prettier-config"
+    "publish:prettier-config": "npm publish --workspace @mintlify/prettier-config",
+    "publish:ts-config": "npm publish --workspace @mintlify/ts-config"
   }
 }
