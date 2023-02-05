@@ -1,0 +1,23 @@
+{
+  "name": "@mintlify/ts-config",
+  "version": "1.0.3",
+  "description": "Mintlify shared ts config",
+  "author": "Mintlify, Inc.",
+  "homepage": "https://mintlify.com/",
+  "license": "MIT",
+  "main": "./tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintlify/config"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "peerDependencies": {
+    "@tsconfig/next": "1.x"
+  }
+}
