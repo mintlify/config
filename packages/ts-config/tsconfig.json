@@ -1,9 +1,17 @@
 {
-  "extends": "@tsconfig/next/tsconfig.json", // https://github.com/tsconfig/bases/blob/main/bases/next.json
+  "extends": "@tsconfig/recommended", // https://github.com/tsconfig/bases/blob/main/bases/recommended.json
   "compilerOptions": {
+    "target": "ES5", // ES2019
+    "allowJs": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
     "outDir": "dist"
-  }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }
