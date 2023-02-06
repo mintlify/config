@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/ts-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mintlify shared ts config",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -18,6 +18,6 @@
     "publish-manual": "npm publish"
   },
   "peerDependencies": {
-    "@tsconfig/next": "1.x"
+    "@tsconfig/recommended": "1.x"
   }
 }
