@@ -7,10 +7,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "outDir": "dist"
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules"]
 }
