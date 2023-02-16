@@ -1,11 +1,13 @@
 {
   "name": "@mintlify/config",
   "private": "true",
-  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "publish:eslint-config": "npm publish --workspace @mintlify/eslint-config",
+    "publish:eslint-config-typescript": "npm publish --workspace @mintlify/eslint-config-typescript",
+    "publish:eslint-config-next": "npm publish --workspace @mintlify/eslint-config-next",
     "publish:prettier-config": "npm publish --workspace @mintlify/prettier-config",
     "publish:ts-config": "npm publish --workspace @mintlify/ts-config"
   }
