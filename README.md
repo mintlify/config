@@ -8,5 +8,8 @@ Copy [.editorconfig](/packages/editor-config/.editorconfig) into the project roo
 ### Prettier Config
 See [prettier-config](packages/prettier-config/README.md) documentation.
 
+### ESLint Config
+See [eslint-config](packages/eslint-config/README.md) documentation.
+
 ### TS Config
 See [ts-config](packages/ts-config/README.md) documentation.

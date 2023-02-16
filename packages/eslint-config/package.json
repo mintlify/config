@@ -1,0 +1,26 @@
+{
+  "name": "@mintlify/eslint-config",
+  "version": "1.0.3",
+  "description": "Mintlify shared eslint config (base)",
+  "author": "Mintlify, Inc.",
+  "homepage": "https://mintlify.com/",
+  "license": "MIT",
+  "main": "./config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintlify/config"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "peerDependencies": {
+    "eslint-config-prettier": "8.x",
+    "eslint-plugin-unused-imports": "2.x",
+    "eslint": "8.x",
+    "prettier": "2.x"
+  }
+}
