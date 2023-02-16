@@ -22,7 +22,7 @@ pnpm add -D @mintlify/eslint-config-typescript
 ```
 
 ## Add Configuration File
-Create a `.eslintrc.json` file in the project root that extends
+Create a `.eslintrc.json` file in the project root that extends this package.
 
 ```
 {
