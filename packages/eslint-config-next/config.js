@@ -1,3 +1,7 @@
 module.exports = {
-  extends: ["@mintlify/eslint-config-typescript", "next/core-web-vitals"],
+  extends: [
+    "babel/next",
+    "@mintlify/eslint-config-typescript",
+    "next/core-web-vitals",
+  ],
 };
