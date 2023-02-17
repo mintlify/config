@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config-next",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Mintlify shared eslint config (next)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -23,6 +23,7 @@
     "@next/eslint-plugin-next": "12.x",
     "@typescript-eslint/eslint-plugin": "5.x",
     "@typescript-eslint/parser": "5.x",
+    "babel-eslint": "10.x",
     "eslint": "8.x",
     "eslint-config-react-app": "7.x",
     "eslint-plugin-flowtype": "4.x",
