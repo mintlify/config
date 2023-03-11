@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/ts-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Mintlify shared ts config",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
