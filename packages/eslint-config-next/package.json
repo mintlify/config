@@ -25,11 +25,6 @@
     "eslint": "8.x",
     "eslint-config-next": "13.x",
     "eslint-config-prettier": "8.x",
-    "eslint-plugin-flowtype": "4.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "4.x",
     "eslint-plugin-unused-imports": "3.x",
     "next": "13.x",
     "prettier": "2.x"
