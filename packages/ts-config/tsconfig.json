@@ -6,6 +6,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "noUncheckedIndexedAccess": true
   }
 }
