@@ -20,7 +20,5 @@
   "peerDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.2.1",
     "prettier": "3.0.3"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }
