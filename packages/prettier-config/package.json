@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mintlify shared prettier config",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -18,7 +18,7 @@
     "publish-manual": "npm publish"
   },
   "peerDependencies": {
-    "prettier": "2.x",
-    "@trivago/prettier-plugin-sort-imports": "3.x"
+    "@trivago/prettier-plugin-sort-imports": "^4.2.1",
+    "prettier": "^3.0.3"
   }
 }
