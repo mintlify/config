@@ -24,6 +24,6 @@
     "eslint": "8.x",
     "eslint-config-prettier": "8.x",
     "eslint-plugin-unused-imports": "^3.x",
-    "prettier": "2.x"
+    "prettier": "3.x"
   }
 }
