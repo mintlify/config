@@ -24,7 +24,7 @@
     "@typescript-eslint/parser": "6.x",
     "eslint": "8.x",
     "eslint-config-next": "13.x",
-    "eslint-config-prettier": "8.x",
+    "eslint-config-prettier": "9.x",
     "eslint-plugin-unused-imports": "3.x",
     "next": "13.x",
     "prettier": "3.x"

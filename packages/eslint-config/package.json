@@ -19,7 +19,7 @@
   },
   "peerDependencies": {
     "eslint": "8.x",
-    "eslint-config-prettier": "8.x",
+    "eslint-config-prettier": "9.x",
     "eslint-plugin-unused-imports": "3.x",
     "prettier": "3.x"
   }
