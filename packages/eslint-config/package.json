@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mintlify shared eslint config (base)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -19,8 +19,8 @@
   },
   "peerDependencies": {
     "eslint": "8.x",
-    "eslint-config-prettier": "8.x",
+    "eslint-config-prettier": "9.x",
     "eslint-plugin-unused-imports": "3.x",
-    "prettier": "2.x"
+    "prettier": "3.x"
   }
 }
