@@ -9,8 +9,7 @@ module.exports = {
   jsxSingleQuote: false,
   bracketSpacing: true,
   bracketSameLine: false,
-  plugins: ["@trivago/prettier-plugin-sort-imports"],
+  plugins: ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
   importOrder: ["<THIRD_PARTY_MODULES>", "^@/(.*)$", "^[./]"],
-  importOrderSeparation: true,
-  "plugins": ["prettier-plugin-tailwindcss"]
+  importOrderSeparation: true
 };
