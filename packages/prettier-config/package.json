@@ -19,6 +19,7 @@
   },
   "peerDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.2.1",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.11"
   }
 }
