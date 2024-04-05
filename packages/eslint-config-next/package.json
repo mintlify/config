@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config-next",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Mintlify shared eslint config (next)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -19,7 +19,7 @@
   },
   "peerDependencies": {
     "@mintlify/eslint-config": "1.0.5",
-    "@mintlify/eslint-config-typescript": "1.0.10",
+    "@mintlify/eslint-config-typescript": "1.0.11",
     "@typescript-eslint/eslint-plugin": "6.x",
     "@typescript-eslint/parser": "6.x",
     "eslint": "8.x",
