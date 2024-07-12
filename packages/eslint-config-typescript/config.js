@@ -1,6 +1,6 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "import/recommended"],
+  plugins: ["@typescript-eslint", "import"],
   extends: ["@mintlify/eslint-config", "plugin:@typescript-eslint/recommended"],
   rules: {
     "import/no-anonymous-default-export": "warn",
