@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config-typescript",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Mintlify shared eslint config (typescript)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
