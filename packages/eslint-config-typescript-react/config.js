@@ -1,6 +1,5 @@
 module.exports = {
-  plugins: ["react/recommended", "react-hooks/recommended", "jsx-a11y"],
-  extends: ["@mintlify/eslint-config-typescript"],
+  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:plugin:jsx-a11y/recommended", "@mintlify/eslint-config-typescript"],
   rules: {
     "react/no-unknown-property": "off",
     "react/react-in-jsx-scope": "off",
