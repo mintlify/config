@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config-typescript",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Mintlify shared eslint config (typescript)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -17,14 +17,13 @@
   "scripts": {
     "publish-manual": "npm publish"
   },
-  "peerDependencies": {
-    "@mintlify/eslint-config": "1.0.5",
+  "dependencies": {
+    "@mintlify/eslint-config": "^1.0.6",
     "@typescript-eslint/eslint-plugin": "6.x",
+    "eslint-plugin-import": "2.x"
+  },
+  "peerDependencies": {
     "@typescript-eslint/parser": "6.x",
-    "eslint": "8.x",
-    "eslint-config-prettier": "9.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-unused-imports": "^3.x",
-    "prettier": "3.x"
+    "eslint": "8.x"
   }
 }
