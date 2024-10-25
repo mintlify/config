@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config-typescript-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mintlify shared eslint config (typescript + react)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -17,18 +17,14 @@
   "scripts": {
     "publish-manual": "npm publish"
   },
-  "peerDependencies": {
-    "@mintlify/eslint-config": "1.0.5",
-    "@mintlify/eslint-config-typescript": "1.0.12",
-    "@typescript-eslint/eslint-plugin": "6.x",
-    "@typescript-eslint/parser": "6.x",
-    "eslint": "8.x",
-    "eslint-config-prettier": "9.x",
-    "eslint-plugin-unused-imports": "^3.x",
+  "dependencies": {
+    "@mintlify/eslint-config-typescript": "^1.0.13",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "4.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "prettier": "3.x"
+    "eslint-plugin-jsx-a11y": "6.x"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/parser": "6.x",
+    "eslint": "8.x"
   }
 }

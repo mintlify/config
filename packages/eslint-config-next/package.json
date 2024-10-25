@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/eslint-config-next",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Mintlify shared eslint config (next)",
   "author": "Mintlify, Inc.",
   "homepage": "https://mintlify.com/",
@@ -17,16 +17,12 @@
   "scripts": {
     "publish-manual": "npm publish"
   },
+  "dependencies": {
+    "@mintlify/eslint-config-typescript": "^1.0.13",
+    "eslint-config-next": "13.x"
+  },
   "peerDependencies": {
-    "@mintlify/eslint-config": "1.0.5",
-    "@mintlify/eslint-config-typescript": "1.0.12",
-    "@typescript-eslint/eslint-plugin": "6.x",
     "@typescript-eslint/parser": "6.x",
-    "eslint": "8.x",
-    "eslint-config-next": "13.x",
-    "eslint-config-prettier": "9.x",
-    "eslint-plugin-unused-imports": "3.x",
-    "next": "13.x",
-    "prettier": "3.x"
+    "eslint": "8.x"
   }
 }
