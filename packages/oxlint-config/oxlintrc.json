@@ -1,0 +1,26 @@
+{
+  "plugins": ["eslint", "unicorn", "oxc", "typescript", "import"],
+  "rules": {
+    "eslint/no-unused-vars": [
+      "error",
+      {
+        "args": "after-used",
+        "vars": "all",
+        "caughtErrors": "none",
+        "reportUsedIgnorePattern": false,
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_"
+      }
+    ],
+    "eslint/no-unused-expressions": "off",
+    "eslint/no-useless-catch": "off",
+    "eslint/no-useless-escape": "off",
+    "eslint/no-extra-boolean-cast": "off",
+    "import/no-anonymous-default-export": "warn",
+    "typescript/no-empty-function": "off",
+    "typescript/no-floating-promises": "error",
+    "typescript/no-unnecessary-condition": "error",
+    "typescript/no-for-in-array": "error"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@mintlify/oxfmt-config",
+  "version": "1.0.0",
+  "description": "Mintlify's Oxfmt configuration",
+  "main": "oxfmtrc.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintlify/config.git",
+    "directory": "packages/oxfmt-config"
+  },
+  "keywords": [
+    "oxfmt",
+    "formatter",
+    "config"
+  ],
+  "license": "MIT"
+}

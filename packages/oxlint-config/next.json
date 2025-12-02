@@ -1,0 +1,18 @@
+{
+  "extends": ["./oxlintrc.json"],
+  "plugins": ["react", "nextjs"],
+  "rules": {
+    "nextjs/no-img-element": "off",
+    "nextjs/no-before-interactive-script-outside-document": "off",
+    "nextjs/no-html-link-for-pages": "off",
+    "nextjs/no-page-custom-font": "off",
+    "oxc/const-comparisons": "off",
+    "unicorn/no-useless-fallback-in-spread": "off",
+    "unicorn/no-useless-spread": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
