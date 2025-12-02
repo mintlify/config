@@ -1,0 +1,25 @@
+{
+  "name": "@mintlify/oxlint-config",
+  "version": "1.0.0",
+  "description": "Mintlify's Oxlint configuration",
+  "main": "oxlintrc.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintlify/config.git",
+    "directory": "packages/oxlint-config"
+  },
+  "keywords": [
+    "oxlint",
+    "config"
+  ],
+  "files": [
+    "oxlintrc.json",
+    "next.json",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./oxlintrc.json",
+    "./next": "./next.json"
+  },
+  "license": "MIT"
+}

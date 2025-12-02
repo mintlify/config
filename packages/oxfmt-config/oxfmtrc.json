@@ -1,0 +1,12 @@
+{
+  "useTabs": false,
+  "indentWidth": 2,
+  "lineWidth": 100,
+  "arrowParens": "always",
+  "trailingCommas": "es5",
+  "singleQuotes": true,
+  "semicolons": true,
+  "quoteProperties": "asNeeded",
+  "bracketSpacing": true,
+  "bracketSameLine": false
+}
