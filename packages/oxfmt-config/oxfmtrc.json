@@ -1,12 +1,18 @@
 {
-  "useTabs": false,
-  "indentWidth": 2,
-  "lineWidth": 100,
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "es5",
   "arrowParens": "always",
-  "trailingCommas": "es5",
-  "singleQuotes": true,
-  "semicolons": true,
-  "quoteProperties": "asNeeded",
+  "tabWidth": 2,
+  "useTabs": false,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
   "bracketSpacing": true,
-  "bracketSameLine": false
+  "bracketSameLine": false,
+  "experimentalSortImports": {
+    "groups": [["^@mintlify(/.*)?$"], ["^@?\\w"], ["^@/(.*)$"], ["^[./]"]],
+    "ignoreCase": true,
+    "newlinesBetween": false,
+    "partitionByNewline": true
+  }
 }

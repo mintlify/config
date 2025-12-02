@@ -33,3 +33,6 @@ This configuration matches the Prettier settings:
 - ES5 trailing commas
 - Arrow function parens always
 - Bracket spacing enabled
+- Import sorting enabled with groups for `@mintlify`, other third-party (`@?\\w`), `@/` aliases, then relative paths (mirrors `@trivago/prettier-plugin-sort-imports`)
+
+> Tailwind class sorting from `prettier-plugin-tailwindcss` is not available in Oxfmt yet; if it ships in Oxfmt we can add it here for full parity.
