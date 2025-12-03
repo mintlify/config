@@ -1,6 +1,6 @@
 {
   "name": "@mintlify/oxlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mintlify's Oxlint configuration",
   "main": "oxlintrc.json",
   "repository": {
