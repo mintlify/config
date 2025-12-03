@@ -23,6 +23,6 @@
     "typescript/no-floating-promises": "error",
     "typescript/no-unnecessary-condition": "error",
     "typescript/no-for-in-array": "error",
-    "typescript-eslint/triple-slash-reference": "off"
+    "typescript/triple-slash-reference": "off"
   }
 }
